@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+
+    <!-- Font-awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-container">
+        <img
+          src="images/cake-icon.png"
+          class="logo"
+          id="header-img"
+          alt="Cake-logo"
+        />
+        <p>Cake Factory</p>
+      </div>
+      <nav id="nav-bar">
+        <a href="#video" class="active nav-link">Features</a>
+        <a href="#product-info" class="nav-link">How It Works</a>
+        <a href="#email" class="nav-link">Contact</a>
+        <a href="#price-container" class="nav-link">Price</a>
+      </nav>
+    </header>
+    <main>
+      <section class="video-container">
+        <video controls id="video">
+          <source src="media/cake-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag
+        </video>
+      </section>
+      <section class="form-container">
+        <p>For more information on cakes made by hand as an art.</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your best E-mail"
+            required
+          />
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </section>
+      <section id="product-info">
+        <article>
+          <i class="fa-solid fa-wheat-awn-circle-exclamation"></i>
+          <div>
+            <h3>Premium Ingredients</h3>
+            <p>
+              Our cakes are made using the best ingredients, always selected
+              with the main international standards.
+            </p>
+          </div>
+        </article>
+        <article>
+          <i class="fa-solid fa-industry"></i>
+          <div>
+            <h3>Custom production</h3>
+            <p>
+              The customer has complete freedom to choose the design of the
+              product, as well as its ingredients.
+            </p>
+          </div>
+        </article>
+        <article>
+          <i class="fa-solid fa-truck-fast"></i>
+          <div>
+            <h3>Super fast delivery</h3>
+            <p>
+              We deliver anywhere in the country, we also guarantee the quality
+              of the product, that if it suffers damage, the customer can
+              receive the money back or a new product.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="price-container">
+        <article>
+          <h3 class="price-title">regular cake</h3>
+          <h4 class="price-value">$100</h4>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Buy</button>
+        </article>
+        <article>
+          <h3 class="price-title">regular cake</h3>
+          <h4 class="price-value">$100</h4>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Buy</button>
+        </article>
+        <article>
+          <h3 class="price-title">regular cake</h3>
+          <h4 class="price-value">$100</h4>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Buy</button>
+        </article>
+      </section>
+    </main>
+    <footer id="footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <p>Cake factory, &copy;Copyright 2022</p>
+    </footer>
+  </body>
+</html>
